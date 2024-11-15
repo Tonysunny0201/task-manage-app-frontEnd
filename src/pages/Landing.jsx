@@ -21,9 +21,8 @@ const Landing = () => {
   const [showEdit, setShowEdit] = useState(false);
   const [currentTask, setCurrentTask] = useState(null);
 
-  // Handlers for add, edit, delete, and set reminder
   const handleAddTask = (newTask) => {
-    setTasks([...tasks, { ...newTask, id: Date.now() }]); // Add task with a unique ID
+    setTasks([...tasks, { ...newTask, id: Date.now() }]); 
   };
 
   const handleEdit = (task) => {
