@@ -11,8 +11,8 @@ const Edit = ({ task, onClose, onUpdateTask }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onUpdateTask(updatedTask); // Pass the updated task to the parent component
-    onClose(); // Close the modal
+    onUpdateTask(updatedTask); 
+    onClose(); 
   };
 
   return (

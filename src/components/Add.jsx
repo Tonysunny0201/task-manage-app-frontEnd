@@ -18,7 +18,7 @@ const Add = ({ onClose, onAddTask }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onAddTask(task); // Pass the new task to the parent component
+    onAddTask(task); 
     onClose(); 
   };
 
